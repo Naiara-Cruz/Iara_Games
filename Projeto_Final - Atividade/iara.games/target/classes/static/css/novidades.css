@@ -1,0 +1,125 @@
+* Adicionando estilos personalizados */
+
+/* Estilos para o cabeçalho */
+header {
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de destaque */
+.highlight-section {
+    padding: 50px 0;
+}
+
+.highlight-section h2 {
+    margin-bottom: 20px;
+}
+
+.highlight-section p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção de depoimentos */
+.testimonial-section {
+    padding: 50px 0;
+}
+
+.testimonial-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    /* Estilos para o cabeçalho */
+    header {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para a seção de destaque */
+    .highlight-section {
+        padding: 50px 0;
+    }
+
+    .highlight-section h2 {
+        margin-bottom: 20px;
+    }
+
+    .highlight-section p {
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para a seção de depoimentos */
+    .testimonial-section {
+        padding: 50px 0;
+    }
+
+    .testimonial-section h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para o rodapé */
+    footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    img {
+        max-width: 40px;
+        height: auto;
+    }
+
+/* Sobrescrevendo a classe .btn-primary do Bootstrap */
+    .btn-primary {
+        background-color: #00A6B7 ; /* Nova cor de fundo */
+        border-color: #00A6B7 ; /* Nova cor da borda */
+}
+
+    .btn-primary:hover, 
+    .btn-primary:focus, 
+    .btn-primary:active {
+        background-color: #5783db; /* Cor de fundo ao passar o mouse */
+        border-color: #5783db; /* Cor da borda ao passar o mouse */
+}
+
+    .nav-link{
+        color:#FFFFFF;
+    }
+
+    .container-end{
+        overflow: auto;
+        background-color: #00A6B7;
+    }
+
+    .footer {
+        background-color: #00A6B7;
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+    
+    .footer a {
+        color: #FFFFFF;
+    }
+    
+    .footer p {
+        color: #FFFFFF;
+    }
+
+    .navbar-brand{
+        color: #FFFFFF;
+        margin-left: 15px;
+    }

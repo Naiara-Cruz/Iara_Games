@@ -1,0 +1,61 @@
+.game-card {
+    margin-bottom: 20px;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+}
+
+.game-price {
+    font-weight: bold;
+}
+
+.filter-bar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-expand-lg {
+    background-color: #00A6B7;
+}
+
+.footer {
+    background-color: #00A6B7;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer p {
+    color: #FFFFFF;
+}
+
+.page-link {
+    color: black;
+}
+
+.nav-link{
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    color: #FFFFFF;
+}
+
+.logo {
+    max-width: 40px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.nav-link{
+    color:#FFFFFF;
+}

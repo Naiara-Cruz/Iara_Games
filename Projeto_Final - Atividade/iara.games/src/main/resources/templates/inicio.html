@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laraGames</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/inicio.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <img src="../static/img/mermaid.png" class="logo">
+        <a class="navbar-brand" href="#">lara Games</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./profile.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./novidades.html">Novidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="filter-bar d-flex justify-content-between align-items-center mb-4">
+            <div class="filters d-flex">
+                <select class="custom-select mr-2">
+                    <option selected>Ação</option>
+                    <option selected>RPG</option>
+                    <option selected>Simulação</option>
+                    <option selected>Jogos de Tiro</option>
+                    <option selected>Sobrevivência</option>
+                    <option selected>Genêro</option>
+                </select>
+                <select class="custom-select mr-2">
+                    <option selected>R$50-R$100</option>
+                    <option selected>R$100-R$500</option>
+                    <option selected>Preço</option>
+                </select>
+                <select class="custom-select mr-2">
+                    <option selected>5 - 8 anos</option>
+                    <option selected>8 - 15 anos</option>
+                    <option selected>18+</option>
+                    <option selected>Classificação</option>
+                </select>
+                <button class="btn btn-outline-secondary">Limpar</button>
+            </div>
+            <div class="sort">
+                <select class="custom-select">
+                    <option selected>Velho → Novo</option>
+                    <option selected>Novo → Velho</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Example of game card -->
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/hero.jpeg" class="card-img-top" alt="A Lenda do Herói">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">A Lenda do Herói</h5>
+                        <p class="game-price">R$29,99</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for other games -->
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/DandyAce.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dandy Ace</h5>
+                        <p class="game-price">R$79,99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/Fobia.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fobia</h5>
+                        <p class="game-price">R$99,99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/Unsighted.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Unsighted</h5>
+                        <p class="game-price">R$59,99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/Hazel.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hazel Sky</h5>
+                        <p class="game-price">R$69,99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/Horizon-Chase-Turbo_20180529200529.webp" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Horizon Chase Turbo</h5>
+                        <p class="game-price">R$79,99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/Dandara.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dandara</h5>
+                        <p class="game-price">R$79,99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 game-card">
+                <div class="card">
+                    <img src="../static/img/ChromaSquad.jpg" class="card-img-top" alt="Dandy Ace">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chroma Squad</h5>
+                        <p class="game-price">R$79,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Mostrar mais</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer class="footer text-center mt-4">
+        <div class="container">
+            <a href="#">Suporte</a> | 
+            <a href="#">Privacidade e Cookies</a> | 
+            <a href="#">Website Termos de Uso</a>
+            <div class="mt-3">
+                <p>© 2024 Iara Games. Todos os direitos reservados.</p>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
